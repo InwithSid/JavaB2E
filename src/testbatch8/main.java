@@ -16,12 +16,7 @@ public class main {
      */
     public static void main(String[] args) {
         
-
-
-
-
-
-//        System.out.println("************ Welcome to SidLabs *****************\n\n");
+        System.out.println("************ Welcome to SidLabs *****************\n\n");
 //
 //        String string = "This is my test string which I am testing";
 //        int count = 0;
