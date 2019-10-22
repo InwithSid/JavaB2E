@@ -16,7 +16,43 @@ public class main {
      */
     public static void main(String[] args) {
         
-        System.out.println("************ Welcome to SidLabs *****************\n\n");
+
+
+
+
+
+//        System.out.println("************ Welcome to SidLabs *****************\n\n");
+//
+//        String string = "This is my test string which I am testing";
+//        int count = 0;
+//        
+//        for (int i=0; i < string.length(); i++){
+//            if(string.charAt(i)!= ''){
+//                count ++;
+//            }
+//            System.out.println("The total number of charecters in this string is " + count);
+// }
+    
+        
+        
+        
+                
+
+
+
+
+//        // a mile = 1.609344 kilometers
+//        
+//        int mile = 1;
+//        double highscore = 100.12;
+//        double kilometers = 100 * 1.609344;
+//        String str = "SidLabs";
+//        
+//        
+//        System.out.println("This is your highscore :" + highscore + "\n" + "You have travelled a " + mile);
+//        
+//        
+//        
     }
     
 }
