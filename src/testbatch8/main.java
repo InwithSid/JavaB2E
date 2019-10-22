@@ -18,15 +18,16 @@ public class main {
         
         System.out.println("************ Welcome to SidLabs *****************\n\n");
 //
-//        String string = "This is my test string which I am testing";
-//        int count = 0;
-//        
-//        for (int i=0; i < string.length(); i++){
-//            if(string.charAt(i)!= ''){
-//                count ++;
-//            }
-//            System.out.println("The total number of charecters in this string is " + count);
-// }
+        String string = "This is my test string which I am testing";
+        int count = 0;
+        char y = ' ';
+        for (int i=0; i < string.length(); i++){
+            if(string.charAt(i)!= y){
+                count++;
+                
+        }
+            }
+            System.out.println("The total number of charecters in this string is " + count);
     
         
         
