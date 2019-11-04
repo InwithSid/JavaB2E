@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package testbatch8;
-import java.util.Scanner;
+//import java.util.Scanner;
 /**
  *
  * @author Administrator
@@ -17,34 +17,45 @@ public class main {
     public static void main(String[] args) {
         
     System.out.println("************ Welcome to SidLabs *****************\n\n");
-    String num1;
-    double num2;
-    String num3;
-    String num4;
-    String num5;
     
-    Scanner scn = new Scanner(System.in);
+    //Billing System in java
     
-    //take the input
+    ItemData obj = new ItemData();
     
-        System.out.println("Please enter the Customer Number :");
-        num1 = scn.nextLine();
-        System.out.println("Please enter the opening Balance :");
-        num2 = scn.nextDouble();
-        System.out.println("Please enter the Customer Name :");
-        num3 = scn.nextLine();
-        System.out.println("Please enter the Customer Email :");
-        num4 = scn.nextLine();
-        System.out.println("Please enter the Customer Phone :");
-        num5 = scn.nextLine();
+        obj.PrintItems();
+        //System.out.println(obj.getItems());
     
-    Account acn = new Account(num1, num2, num3, num4, num5);
     
-        System.out.println("The account balance is " + acn.getBalance());
-        System.out.println("The account Name is " + acn.getCustomerName());
-        
-        acn.deposit(12000.00);
-        acn.withdrawal(2546.345);
+    
+    
+//    String num1;
+//    double num2;
+//    String num3;
+//    String num4;
+//    String num5;
+//    
+//    Scanner scn = new Scanner(System.in);
+//    
+//    //take the input
+//    
+//        System.out.println("Please enter the Customer Number :");
+//        num1 = scn.nextLine();
+//        System.out.println("Please enter the opening Balance :");
+//        num2 = scn.nextDouble();
+//        System.out.println("Please enter the Customer Name :");
+//        num3 = scn.nextLine();
+//        System.out.println("Please enter the Customer Email :");
+//        num4 = scn.nextLine();
+//        System.out.println("Please enter the Customer Phone :");
+//        num5 = scn.nextLine();
+//    
+//    Account acn = new Account(num1, num2, num3, num4, num5);
+//    
+//        System.out.println("The account balance is " + acn.getBalance());
+//        System.out.println("The account Name is " + acn.getCustomerName());
+//        
+//        acn.deposit(12000.00);
+//        acn.withdrawal(2546.345);
         
         
 //    VipAccount vip = new VipAccount("32112", 5000.00, "Avijeet", "Avi@iva.com", "1234343");
